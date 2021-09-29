@@ -255,7 +255,7 @@ a:focus {
   position: relative;
   width: 100%;
   margin-bottom: 45px;
-  padding: 120px 0px 150px 0px;
+  padding: 120px 0px 10px 0px;
   overflow: hidden;
   background: linear-gradient(rgba(239, 35, 60, 0.90), rgba(239, 35, 60, 0.95)),
     url(../img/hero-bg.jpg);
