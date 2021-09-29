@@ -510,7 +510,7 @@ a:focus {
 @media (max-width: 1200.98px) {
   .images {
     position: absolute;
-    top: 1400px;
+    top: 1620px;
   }
 
   .hero .hero-content {
@@ -520,12 +520,12 @@ a:focus {
   .skill h2 {
     position: absolute;
     top: 55px;
-    left: 225px;
+    left: 350px;
   }
   .about h2 {
     position: absolute;
     top: 50px;
-    left: 225px;
+    left: 345px;
   }
 }
 
