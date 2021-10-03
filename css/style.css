@@ -651,13 +651,13 @@ a:focus {
 @media (max-width: 500px) {
   .section-header h1 {
     font-size: 75px;
-    left: 65px;
+    left: 55px;
   }
   .experience h2 {
     font-size: 30px;
     position: absolute;
     top: -30px;
-    left: 145px;
+    left: 135px;
   }
   .skill h1 {
     font-size: 5.5rem;
@@ -666,24 +666,24 @@ a:focus {
   .skill h2 {
     font-size: 30px;
     top: -600px;
-    left: 135px;
+    left: 145px;
   }
   .images {
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 1330px;
   }
   .about h1 {
     font-size: 5.5rem;
     position: absolute;
     top: -545px;
-    left: 70px;
+    left: 60px;
   }
   .about h2 {
     font-size: 30px;
     position: absolute;
     top: -75px;
-    left: 145px;
+    left: 135px;
   }
   .section-header h2 {
     font-size: 30px;
