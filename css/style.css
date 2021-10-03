@@ -657,7 +657,7 @@ a:focus {
     font-size: 30px;
     position: absolute;
     top: -30px;
-    left: 115px;
+    left: 100px;
   }
   .skill h1 {
     font-size: 5.5rem;
@@ -666,7 +666,7 @@ a:focus {
   .skill h2 {
     font-size: 30px;
     top: -600px;
-    left: 125px;
+    left: 105px;
   }
   .images {
     position: absolute;
@@ -683,7 +683,7 @@ a:focus {
     font-size: 30px;
     position: absolute;
     top: -75px;
-    left: 125px;
+    left: 115px;
   }
   .section-header h2 {
     font-size: 30px;
