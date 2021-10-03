@@ -61,7 +61,7 @@ a:focus {
 }
 
 .btn {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 #loader {
@@ -257,7 +257,7 @@ a:focus {
   margin-bottom: 45px;
   padding: 120px 0px 10px 0px;
   overflow: hidden;
-  background: linear-gradient(rgba(239, 35, 60, 0.90), rgba(239, 35, 60, 0.95)),
+  background: linear-gradient(rgba(239, 35, 60, 0.9), rgba(239, 35, 60, 0.95)),
     url(../img/hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -484,7 +484,6 @@ a:focus {
   margin-top: -50px;
 }
 
-
 .skill h1 {
   font-size: 8.5rem;
   margin-top: -130px;
@@ -561,10 +560,9 @@ a:focus {
     top: -150px;
     left: 4px;
   }
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .skill h2 {
     position: absolute;
     top: 55px;
@@ -582,12 +580,12 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-  .section-header h2 {
+  /* .section-header h2 {
     font-size: 30px;
     position: absolute;
     top: 0px;
     left: 0px;
-  }
+  } */
   .section-header h1 {
     font-size: 75px;
     position: absolute;
@@ -600,20 +598,19 @@ a:focus {
   }
 
   .hero-content {
-    left: 0px;
+    left: 2px;
     position: absolute;
   }
 
-
   .skill h1 {
-  font-size: 75px;
-  margin-top: -130px;
-  left: 40px;
+    font-size: 75px;
+    top: -137px;
+    left: 40px;
   }
   .skill h2 {
-  font-size: 30px;
-  top: -595px;
-  left: 90px;
+    font-size: 30px;
+    top: -595px;
+    left: 90px;
   }
 
   .about h2 {
@@ -639,9 +636,59 @@ a:focus {
     position: absolute;
     top: 1355px;
   }
-
 }
 
+@media (max-width: 411.98px) {
+  .section-header h1 {
+    font-size: 75px;
+    position: absolute;
+    margin-top: 435px;
+    left: 28px;
+    top: -490px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-header h1 {
+    font-size: 75px;
+    left: 75px;
+  }
+  .experience h2 {
+    font-size: 30px;
+    position: absolute;
+    top: -30px;
+    left: 155px;
+  }
+  .skill h1 {
+    font-size: 5.5rem;
+    top: -1070px;
+  }
+  .skill h2 {
+    font-size: 30px;
+    top: -600px;
+    left: 145px;
+  }
+  .images {
+    position: absolute;
+    left: 50px;
+    top: 1330px;
+  }
+  .about h1 {
+    font-size: 5.5rem;
+    position: absolute;
+    top: -545px;
+    left: 80px;
+  }
+  .about h2 {
+    font-size: 30px;
+    position: absolute;
+    top: -75px;
+    left: 155px;
+  }
+  .section-header h2 {
+    font-size: 30px;
+  }
+}
 /*******************************/
 /********** About CSS **********/
 /*******************************/
@@ -913,11 +960,12 @@ a:focus {
     height: 10px;
   }
 
-  .experience h2 {
+  /* .experience h2 {
+    font-size: 30px;
+    position: absolute;
     top: -30px;
     left: 80px;
-  }
-
+  } */
 }
 
 /*******************************/
@@ -1002,8 +1050,8 @@ a:focus {
     font-size: 14px;
   }
   .section-header .heading {
-  top: 0px;
-}
+    top: 0px;
+  }
 }
 
 /*******************************/
@@ -1287,8 +1335,6 @@ a:focus {
   border-color: #ef233c;
 }
 
-
-
 /*******************************/
 /******* Testimonial CSS *******/
 /*******************************/
@@ -1568,7 +1614,7 @@ body {
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #0BCEAF;
+  --primary: #0bceaf;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -1583,7 +1629,8 @@ body {
   --breakpoint-xl: 1200px;
 
   --font-family-sans-serif: "Roboto", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 }
 /* SKILLS END */
 
@@ -1708,7 +1755,6 @@ body {
   position: relative;
   margin-left: 20px;
 }
-
 
 @media (max-width: 575.98px) {
   .footer .footer-info h2 {
